@@ -1,4 +1,5 @@
-# javascript
- Curso Javacript do Cursoemvídeo
+Acesse os meus exercícios aqui !!!
 
- Este é um teste de atualizar o meu Git local e remoto!!!
+Curso Javascript Hora de Codar!!!
+
+<a href="https://kbrallll.github.io/javascript/javascript-codar/ex001/index.html">Ex001 - Executando o primeiro programa</a>
