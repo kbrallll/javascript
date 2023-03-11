@@ -7,11 +7,49 @@
     <title>Criando meu primeiro script</title>
     <style>
     @charset "UTF=8";
+        * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        }
 
         body {
-            background-color: aliceblue;
+            height: 720px;
+            width: 485px;
+            margin: auto;
+            background-color: rgb(253, 185, 39);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+        }
+
+        h1 {
+            color: rgb(85, 37, 130);
+            font-size: 2em;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        h2 {
+            color: rgb(85, 37, 130);
+            font-size: 1.6em;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        p {
+            color: rgb(85, 37, 130);
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: justify;
+            margin-bottom: 10px;
+            text-indent: 20px;
+        }
+
+        ul li {
+            color: rgb(85, 37, 130);
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: justify;
+        }
 
     </style>
 </head>
@@ -22,55 +60,98 @@
     </p>
     <h2>Variáveis:</h2>
 
-    <p> 
-        Criar variáveis, Ex: var nome ou let nome
+     
+        <p>
+            Criar variáveis, Ex: var nome ou let nome
+        </p>
+        <p>
+            Para uma variável receber um valor usamos var nome = Gustavo (desta forma criamos uma variável e ao mesmo tempo demos uma valor a ela)
+        </p> 
 
-        para uma variável receber um valor usamos var nome = Gustavo (desta forma criamos uma variável e ao mesmo tempo demos uma valor a ela) 
+        <p>
+            nome = Gustavo (desta forma apenas demos um valor para a variável )
+        </p>
 
-        nome = Gustavo (desta forma apenas demos um valor para a variável )
+        <p>
+            Regras das variáveis:
+            Podem começar com: Letra, $ ou _
+            Não podem começar com números
+            É possível usar letras ou números
+            É possível usar  acentos e símbolos
+            Não pode conter espaços
+            Não pode usar palavras que são comandos
+        </p>
 
-        Regras das variáveis:
-        Podem começar com: Letra, $ ou _
-        Não podem começar com números 
-        É possível usar letras ou números
-        É possível usar  acentos e símbolos 
-        Não pode conter espaços 
-        Não pode usar palavras que são comandos
+        <p>
+            Dicas para nomes das variáveis:
+            Maiúsculas e Minúsculas fazem a diferença!
+            Tente escolher nomes coerentes a função da variável. Ex: Variável que vai armazenar a idade, coloca o nome dela de “idade”
+            Evite se tornar um “Programador Alfabeto” ou um “Programador Numérico”. Ex: Não usar os nomes das variáveis como “a”, “b”, “c”, etc; ou “a1”, “a2”, “a3”, etc.
+        </p>
 
-        Dicas para nomes das variáveis: 
-        Maiúsculas e Minúsculas fazem a diferença!
-        Tente escolher nomes coerentes a função da variável. Ex: Variável que vai armazenar a idade, coloca o nome dela de “idade”
-        Evite se tornar um “Programador Alfabeto” ou um “Programador Numérico”. Ex: Não usar os nomes das variáveis como “a”, “b”, “c”, etc; ou “a1”, “a2”, “a3”, etc.
+        <p>
+            Tipos de Dados das Variáveis: (Tipos Primitivos, lembrando que existem muitas outras!)
+            <ul>
+                <li>Numbers;</li>
+                <li>Strings;</li>
+                <li>Boolean;</li>
+                <li>Numbers: 1; -2; 4.5; 6.555 Basicamente números</li>
+                <li>Strings: Maria, Google, Joao, pedreiro, (seu CPF) Basicamente cadeia de caracteres</li>
+                <li>Boolean: True; False</li>
+            </ul>
+        </p>
 
-        Tipos de Dados das Variáveis: (Tipos Primitivos, lembrando que existem muitas outras!)
+        <p>
+            Existe 3 tipos de opções de vc executar o comando soma de string para número:
+            <ul>
+                <li>Number.parselnt(n) para números inteiros</li>
+                <li>Number.parsefloat(n) para números reais</li>
+                <li>Number(n) modo simplificado para todos os números</li>
+            </ul>
+        </p>
 
-        Numbers;
-        Strings;
-        Boolean;
+        <p>
+            Existe 2 opções de converter número para string:
+            <ul>
+                <li>String()</li>
+                <li>n.toString()</li>
+            </ul>
+        </p>
 
-        Numbers: 1; -2; 4.5; 6.555 -> Basicamente números
-        Strings: Maria, Google, Joao, pedreiro, (seu CPF) -> Basicamente cadeia de caracteres
-        Boolean: True; False ->
-
-    </p>
+        <p>
+            Formatando Strings
+            <ul>
+                <li>var s = 'Javascript'</li>
+                <li>'Eu estou aprendendo s' não faz interpolação </li>
+                <li>'Eu estou aprendendo' + s  usa concatenação </li>
+                <li>`Eu estou aprendendo $s`  usa template string </li>
+                <li> s.length quantos caracteres a string tem</li>
+                <li> s.toUpperCase() tudo para "MAIÚSCULAS"</li>
+                <li> s.toLowerCase() tudo para "minúsculas"</li>
+                
+            </ul>
+        </p>
 
     <script>
-        var n1 = Number.parseInt(window.prompt('Digite um número'))
+        var n1 = Number(window.prompt('Digite um número'))
         //Comando para digitar um número
-        var n2 = Number.parseInt(window.prompt('Digite um outro número'))
+        var n2 = Number(window.prompt('Digite um outro número'))
         //Comando para digitar um outro número
         var s = n1 + n2
-        window.alert('A soma é ' + s)
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        // Aqui utilizamos template String
+
         // + serve para adição e serve para concatenação tbm tomar muito cuidado
         // (number + number) para adição
         // (string + string) para concatenação
 
         /* 
-        10
+
         Conversão de String para número
 
         Number.parselnt(n) para números inteiros
         Number.parseFloat(n) para números reais
+        Number(n) Modo simplificado
 
         */
 
