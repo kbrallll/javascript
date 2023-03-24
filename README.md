@@ -15,3 +15,5 @@ Curso Javascript do Curso em vídeo
 <a href="https://kbrallll.github.io/javascript/javascript-video/aula06/ex003.html">Ex003 - Inserindo Scripts no body </a>
 
 <a href="https://kbrallll.github.io/javascript/javascript-video/aula06/ex004.html">Ex004 - Inserindo Scripts no body </a>
+
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula07/ex001.html">Aula 07 - Trabalhando com Operadores Aritméticos e Operadores de Atribuição Simples </a>

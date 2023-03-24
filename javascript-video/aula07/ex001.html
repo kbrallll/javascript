@@ -5,6 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operadores</title>
+    <style>
+
+        @charset "UTF=8";
+            * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            }
+    
+            body {
+                height: 720px;
+                width: 485px;
+                margin: auto;
+                background-color: rgb(253, 185, 39);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+    
+            h1 {
+                color: rgb(85, 37, 130);
+                font-size: 2em;
+                text-align: center;
+                font-weight: bolder;
+            }
+    
+            h2 {
+                color: rgb(85, 37, 130);
+                font-size: 1.6em;
+                text-align: center;
+                font-weight: bolder;
+            }
+    
+            h3 {
+                color: rgb(85, 37, 130);
+                font-size: 1.6em;
+                text-align: center;
+                font-weight: bolder;
+            }
+    
+            p {
+                color: rgb(85, 37, 130);
+                font-size: 1.2em;
+                font-weight: bold;
+                text-align: justify;
+                margin-bottom: 10px;
+                text-indent: 20px;
+            }
+    
+            ul li {
+                color: rgb(85, 37, 130);
+                font-size: 1.2em;
+                font-weight: bold;
+                text-align: justify;
+            }
+    
+        </style>
 </head>
 <body>
     <h1>Trabalhando com Operadores</h1>
@@ -37,7 +92,27 @@
             </ul>
             <h3>Auto-atribuições</h3>
                 <ul>
-                    <li>var n = 3 (n = n+4) (valor que vai aparececr para n agora é 7)                    </li>
+                    <li>var n = 3 (n = n+4) (valor que vai aparecer para n agora é 7)</li>
+                    <li>n = n - 5 (Agora o valor de n é 2)</li>
+                    <li>n = n * 4 (Agora o valor de n é 8)</li>
+                    <li>n = n / 2 (Agora o valor de n é 4)</li>
+                    <li>n = n**2 (Agora o valor de n é 16)</li>
+                    <li>n = n % 5 (Agora o valor de n é 1)</li>
+                </ul>
+            <h3>Simplificando as Auto-atribuições do exemplo acima</h3>
+                <ul>
+                    <li>n+=4 (ISSO SÓ DÁ PARA FAZER SE O N RECEBER O VALOR DE N MSM)</li>
+                    <li>n-=5</li>
+                    <li>n*=4</li>
+                    <li>n/=2</li>
+                    <li>n**=2</li>
+                    <li>n%=5</li>
+                </ul>
+            <h3>Propriedade de Incremento</h3>
+                <ul>
+                    <li>var x =5 (Valor de x é 5)</li>
+                    <li>x = x + 1 (valor de x é 6) e poderia ser apresentado da forma simplificado (x+=1) Com o incremento fica <strong>(x++)</strong></li>
+                    <li>x = x - 1 (valor de x é 4) e poderia ser apresentado da forma simplificado (x-=1) Com o incremento fica <strong>(x--)</strong></li>
                 </ul>
 </body>
 </html>
