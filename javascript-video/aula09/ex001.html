@@ -27,6 +27,7 @@
                 font-size: 2em;
                 text-align: center;
                 font-weight: bolder;
+                text-decoration: underline;
             }
     
             h2 {
@@ -54,20 +55,29 @@
                 text-indent: 20px;
             }
 
-            ul {
+            
+
+            dl {
                 background-color: whitesmoke;
-                list-style-position: inside;
                 padding: 10px;
             }
     
-            ul li {
+            dl dt {
                 background-color: rgba(253, 185, 39, 0.916) ;
                 color: rgb(85, 37, 130);
                 font-size: 1.2em;
                 font-weight: bold;
-                text-align: justify;
-                margin: 5px;
-                border: 1px solid rgb(85, 37, 130);
+                border: 2px solid rgb(85, 37, 130);
+            }
+
+            dl dd {
+                background-color: rgba(253, 185, 39, 0.916) ;
+                color: rgb(85, 37, 130);
+                font-size: 1.2em;
+                margin-bottom: 2px;
+                text-indent: 2px;
+                
+               
             }
     
         </style>
@@ -77,9 +87,22 @@
         <p>
             DOM = Document Object Model(Conjunto de objetos dentro do navegador)
         </p>
-        <p>
-            Árvore DOM veja esse video <iframe width="560" height="315" src="https://www.youtube.com/embed/WWZX8RWLxIk?start=695" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+            <h2>Árvore DOM veja esse video</h2> 
+
         </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WWZX8RWLxIk?start=695" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </p>
+
+            <h2>Tipos para selecionar o DOM em Javascript</h2>
+            <dl>
+                <dt>Por Marca</dt>
+                <dd>getElementsByTagName()</dd>
+                <dt>Por ID</dt>
+                <dt>Por Nome</dt>
+                <dt>Por Classe</dt>
+                <dt>Por Seletor</dt>
+            </dl>
         <p>
             Aprendendo a usar o <strong>DOM</strong> em Javascript
         </p>
@@ -87,7 +110,9 @@
     <div>Clique em mim</div>
     
     <script>
-        window.document.write('Olá Mundo')
+        window.document.write('olá Mundo')
+        window.document.write(window.document.charset)
+        window.document.write(window.document.URL)
     </script>
 </body>
 </html>
