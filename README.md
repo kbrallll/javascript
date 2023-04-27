@@ -24,3 +24,7 @@ Curso Javascript do Curso em vídeo
 
 <a href="https://kbrallll.github.io/javascript/javascript-video/aula10/ex002.html">Aula 10 - Trabalhando com eventos DOM - Soma </a>
 
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula11/ex001.html">Aula 11 - Trabalhando com condições - IF (Exemplo Multa) </a>
+
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula11/ex002.html">Aula 11 - Trabalhando com condições - IF e ELSE (Exemplo Nacionalidade) </a>
+
