@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando as Condições</title>
+    <style>
+
+        @charset "UTF=8";
+            * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            }
+    
+            body {
+                height: 720px;
+                width: 485px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: rgb(253, 185, 39);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+    
+            h1 {
+                color: rgb(85, 37, 130);
+                font-size: 2em;
+                text-align: center;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+    
+            h2 {
+                color: rgb(85, 37, 130);
+                font-size: 1.6em;
+                text-align: center;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+    
+            h3 {
+                text-decoration: underline;
+                color: rgb(85, 37, 130);
+                font-size: 1.6em;
+                text-align: center;
+                font-weight: bolder;
+            }
+    
+            p {
+                color: rgb(85, 37, 130);
+                font-size: 1.2em;
+                font-weight: bold;
+                text-align: justify;
+                margin-bottom: 10px;
+                text-indent: 20px;
+            }
+
+            input {
+                width: 100px;
+                margin: 10px;
+                font-size: 1.2em;
+            }
+            
+            div#res {
+                font-size: 1.2em;
+            }
+
+            #condicoes {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #condicoes2 {
+                display: block;
+            
+            }
+        </style>
+</head>
+<body>
+    <h1>Condições</h1>
+    <div class="imagens">
+        <p>
+            No exemplo abaixo segue uma árvore de como é feita as condições, imagina a seguinte situação que no caso vc deverá escolher entre uma situação ou outra
+        </p>
+        <img src="condicoes.png" alt="condicoes-javascript" id="condicoes">
+        <p>
+            Vamos executar um exemplo de condição simples no primeiro caso somente com a condição verdadeira!!!
+        </p>
+        <img src="condicao-simples1.png" alt="condicao-simples" id="condicoes2">
+    </div>
+    <h2>Limite de velocidade</h2>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+        
+    </div>
+
+    <script>
+      function calcular() {
+        var txtv = window.document.querySelector('input#txtvel')
+        var vel = Number(txtv.value)
+        var res = window.document.querySelector('div#res')
+        res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}</strong>Km/h</p>`
+        if (vel >60) {
+            res.innerHTML += `<p> Parabéns acabou de ganhar uma <strong>MULTA</strong></p>`
+        }
+        res.innerHTML += `<p> Dirija sempre com cinto de segurança!</p>`
+    }
+    </script>
+</body>
+</html>
