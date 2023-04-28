@@ -1,3 +1,5 @@
+var agora = new Date()
+var hora = agora.getHours//Exemplo de pegar a hora da máquina
 var hora = 23
 console.log(`Agora são ${hora} horas`)
 if (hora >= 6 && hora < 12) {

@@ -56,16 +56,6 @@
                 text-indent: 20px;
             }
 
-            input {
-                width: 100px;
-                margin: 10px;
-                font-size: 1.2em;
-            }
-            
-            div#res {
-                font-size: 1.2em;
-            }
-
             #condicoes {
                 display: block;
                 margin-left: auto;
@@ -76,40 +66,46 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-            
+            }
+
+            #condicoes3 {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #condicoes4 {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
         </style>
 </head>
 <body>
-    <h1>Condições Composta</h1>
-        <div class="imagens">
-            <p>
-            No exemplo abaixo segue uma árvore de como é feita as condições, imagina a seguinte situação que no caso vc deverá escolher entre uma situação ou outra
-            </p>
-                <img src="condicoes.png" alt="condicoes-javascript" id="condicoes">
-            <p>
-            Vamos executar um exemplo de condição simples nesse caso estamos executando o IF e também o ELSE!!!
-            </p>
-                <img src="condicao-simples2.png" alt="condicao-simples" id="condicoes2">
-        </div>
-            <h2>Nacionalidade</h2>
-            <strong>Conte o país que você mora:</strong><input type="text" name="txtpais" id="txtpais">
-            <input type="button" value="Enviar" onclick="calcular()">
-            <div id="res"></div>
-
-    <script>
-      function calcular() {
-        var txtpais = window.document.querySelector('input#txtpais')
-        var pais = (txtpais.value)
-        var res = window.document.querySelector('div#res')
-        res.innerHTML = `<p>O país onde você mora é <strong>${pais}</strong></p>`
-        if (pais =='Brasil') {
-            res.innerHTML += `<p> Parabéns você é um <strong>Brasileiro</strong></p>`
-        } else { 
-            res.innerHTML += `<p> Parabéns você é um <strong>Estrangeiro</strong></p>`
-        }
+    <h1>Condições Aninhadas</h1>
+    <div>
+        <p>
+            No exemplo abaixo segue uma árvore de como é feita as condições aninhadas, imagina a seguinte situação da idade para votar e aplicamos esse exemplo na hora do dia tbm !!!
+        </p>
+        <img src="condicao-aninhada1.png" alt="condicoes-aninhadas" id="condicoes">
+        <p>
+            No exemplo abaixo temos uma foto de como é feita a expressão!!!
+        </p>
+        <img src="condicao-aninhada2.png" alt="condicao-aninhadas" id="condicoes2">
         
-    }
+        <h1>Condição Multípla</h1>
+        <p>
+            Abaixo segue uma foto da árvore da condição multípla!!!
+        </p>
+
+        <img src="condicao-multipla.png" alt="condicao-multipla" id="condicoes3">
+        
+        <p>
+            Abaixo segue uma foto das expressão switch, aplicamos esse exemplo no dia da semana!!!
+        </p>
+        <img src="condicao-multipla2.png" alt="condicao-multipla" id="condicoes4">
+    <script>
+      
     </script>
 </body>
 </html>
