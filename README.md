@@ -28,3 +28,5 @@ Curso Javascript do Curso em vídeo
 
 <a href="https://kbrallll.github.io/javascript/javascript-video/aula11/ex002.html">Aula 11 - Trabalhando com condições - IF e ELSE (Exemplo Nacionalidade) </a>
 
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula12/ex001.html">Aula 12 - Trabalhando com condições - Aninhadas e Multíplas (Exemplo idade para vota, hora e dia da semana) </a>
+
