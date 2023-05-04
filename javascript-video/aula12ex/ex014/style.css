@@ -8,7 +8,7 @@ body {
 
 header {
     text-align: center;
-    color: rgb(85, 37, 130);
+    color: #ffffff;
 }
 
 section {
@@ -21,17 +21,22 @@ section {
     box-shadow: 3px 3px 3px rgb(85, 37, 130);
 }
 
+div {
+    text-align: center;
+}
+
 footer {
     text-align: center;
-    color: rgb(85, 37, 130);
+    color: #ffffff;
 }
 
 footer a {
     text-decoration: none;
-    color: rgb(85, 37, 130);
+    color: #ffffff;
     font-style: italic;
 }
 
 a:hover { 
-    color: #ffffff;
+    color: rgb(85, 37, 130);
 }
+
