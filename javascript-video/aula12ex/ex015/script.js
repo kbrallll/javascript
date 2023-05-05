@@ -29,12 +29,38 @@ function verificar() {
         
         var genero = ''
         var img = document.createElement('img')
-        img.setAttribute ('id', 'foto')
+        img.setAttribute('id', 'foto')
         //Criamos um var para a imagem dinamicamente
         if (fsex[0].checked) {
             genero = 'Homem'
+            if (idade <=10) {
+                //Criança
+                img.setAttribute('src', 'foto-bebem.png')
+            } else if (idade <=21) {
+                img.setAttribute('src', 'foto-jovemm.png')
+                //Jovem
+            } else if (idade <=50) {
+                //Adulto
+                img.setAttribute('src', 'foto-adultom.png')
+            } else {
+                //Idoso
+                img.setAttribute('src', 'foto-idosom.png')
+            }
         } else if (fsex[1].checked) {
             genero = 'Mulher'
+            if (idade <=10) {
+                //Criança
+                img.setAttribute('src', 'foto-bebef.png')
+            } else if (idade <=21) {
+                img.setAttribute('src', 'foto-jovemf.png')
+                //Jovem
+            } else if (idade <=50) {
+                //Adulto
+                img.setAttribute('src', 'foto-adultaf.png')
+            } else {
+                //Idoso
+                img.setAttribute('src', 'foto-idosaf.png')
+            }
         }
 
         res.style.textAlign = 'center'
@@ -44,5 +70,6 @@ function verificar() {
         /*
         Aqui criamos um var para o genenero e estamos pedindo que diga no resultado o genero com a sua idade 
         */ 
+        res.appendChild(img)
     }
 }

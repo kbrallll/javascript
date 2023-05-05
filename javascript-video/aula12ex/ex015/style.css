@@ -19,6 +19,14 @@ section {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 3px 3px 3px rgb(85, 37, 130);
+    font-size: 1.2em;
+}
+
+#botao {
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    
 }
 
 footer {
