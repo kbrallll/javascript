@@ -30,3 +30,7 @@ Curso Javascript do Curso em vídeo
 
 <a href="https://kbrallll.github.io/javascript/javascript-video/aula12/ex001.html">Aula 12 - Trabalhando com condições - Aninhadas e Multíplas (Exemplo idade para vota, hora e dia da semana) </a>
 
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula12ex/ex014/index.html">Exercício da aula 12 - Hora do dia </a>
+
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula12ex/ex015/index.html">Exercício da aula 12 - Verificador de Idade </a>
+
