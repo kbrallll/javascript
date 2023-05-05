@@ -23,15 +23,15 @@ section {
 
 footer {
     text-align: center;
-    color: rgb(85, 37, 130);
+    color: #ffffff;
 }
 
 footer a {
     text-decoration: none;
-    color: rgb(85, 37, 130);
+    color: #ffffff;
     font-style: italic;
 }
 
 a:hover { 
-    color: #ffffff;
+    color: rgb(85, 37, 130);
 }
