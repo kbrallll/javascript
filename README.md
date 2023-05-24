@@ -34,3 +34,7 @@ Curso Javascript do Curso em vídeo
 
 <a href="https://kbrallll.github.io/javascript/javascript-video/aula12ex/ex015/index.html">Exercício da aula 12 - Verificador de Idade </a>
 
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula13/index.html">Aula 13 - Repetições </a>
+
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula14ex/ex016/index.html">Exercício 016 - Vamos contar </a>
+
