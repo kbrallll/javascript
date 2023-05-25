@@ -24,7 +24,6 @@ function calcular() {
            tab.appendChild(item) 
            //Aqui vai mostrar a tabuada dentro do option adicionando o filho item
            item.style.color += '#552582' 
-
            c++
         }
     }
