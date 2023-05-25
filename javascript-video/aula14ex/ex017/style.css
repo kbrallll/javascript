@@ -14,14 +14,41 @@ header {
 section {
     background-color: #ffffff;
     border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(85, 37, 130);
     padding: 20px;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 3px 3px 3px rgb(85, 37, 130);
 }
 
+#tabu {
+    color: rgb(85, 37, 130);
+    font-size: 18px;
+}
+
+#numero {
+    color: rgb(85, 37, 130);
+    font-size: 18px;
+}
+
+#botao {
+    width: 120px;
+    background-color: rgb(253, 185, 39);
+    color: rgb(85, 37, 130);
+    font-weight: bolder;
+}
+
+#seltab {
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    font-size: 18px;
+}
+
+
 footer {
+    font-size: 18px;
     text-align: center;
     color: rgb(85, 37, 130);
 }

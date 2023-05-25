@@ -38,3 +38,5 @@ Curso Javascript do Curso em vídeo
 
 <a href="https://kbrallll.github.io/javascript/javascript-video/aula14ex/ex016/index.html">Exercício 016 - Vamos contar </a>
 
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula14ex/ex017/index.html">Exercício 017 - Tabuada </a>
+
