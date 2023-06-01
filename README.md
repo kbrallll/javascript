@@ -40,3 +40,7 @@ Curso Javascript do Curso em vídeo
 
 <a href="https://kbrallll.github.io/javascript/javascript-video/aula14ex/ex017/index.html">Exercício 017 - Tabuada </a>
 
+<a href="https://kbrallll.github.io/javascript/javascript-video/aula16ex/index.html">Exercício 018 - Analisando Números </a>
+
+
+
